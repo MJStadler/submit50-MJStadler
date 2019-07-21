@@ -1,0 +1,62 @@
+body {
+   background-image: url("Israel.jpg");
+   }
+
+h1  {
+   color: red;
+   background-color: white; 
+   text-align: center; 
+}
+p {
+   color: black;
+   font-size: 20px;
+   font-style: bold;
+   text-align: center;
+}
+img {
+   padding-top: 50px;
+   padding-left: 40%;
+}
+form {
+   padding-top: 40px;
+   padding-left: 40%;
+}
+ul {
+   width: 15%;
+   background-color: floralwhite;
+   border: 10px solid yellow;
+   padding: 5%;
+   text-align: left;
+ }
+.grid {
+   background-color: blue;
+   display: grid;
+   padding: 20px;
+   grid-column-gap: 20px;
+   grid-row-gap: 10px;
+   grid-template-columns: auto auto auto;
+}
+.grid-item {
+   background-color: white;
+   font-size: 20px;
+   padding: 20px;
+   text-align: left;
+}   
+ form
+    input[type=text] {
+       background-color: yellow;
+    }
+    th {
+      text-align: left;
+    }
+.container {
+   display: flex;
+   flex-wrap: wrap;
+}
+.container {
+   background-color: blue;
+   font-size: 20px;
+   margin:20px;
+   padding: 20px;
+   width: 200px;
+    }

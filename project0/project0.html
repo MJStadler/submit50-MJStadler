@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pray Together</title>
+        <meta name="viewport" content="width=device-width", initial-scale>
+        <link rel="stylesheet" href="style.css" a href="project01.html" >
+    </head>
+    <body>
+    
+        <h1>James 5:16</h1>
+        <p>Therefor, confess your sins to one another and pray for one another,
+           that you may be healed. The prayer of a righteous person has great 
+           power as it is working.</p>
+     <img src="Bid.jpeg" width = "20%">      
+    <form>
+        <input type="text" placeholder="type your prayer request here" prayer="prayer">
+        <button onclick="submit()"> submit</button>
+    </form>
+    <a href="project01.html">For comments click here!</a>
+    <a href="project02.html">For Byble verses click here!</a>
+    <a href="project03.html">For Byble verses click here!</a>
+    
+    <script>
+       function submit() {
+        document.querySelector('li').innerHTML = prayer;
+       }
+    </script> 
+    <ul>
+        <li>prayer = request.form.get("prayer")</li>
+    </ul>
+    </body>
+</html>
